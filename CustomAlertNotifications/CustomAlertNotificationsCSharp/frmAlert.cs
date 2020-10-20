@@ -89,7 +89,7 @@ namespace CustomAlertNotificationsCSharp
             close
         }
 
-        private frmAlert.actionEnum action;
+        private frmAlert.actionEnum action = actionEnum.start;
 
        
         private void GunaPictureBox2_Click(object sender, EventArgs e)
